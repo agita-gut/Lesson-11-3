@@ -84,10 +84,7 @@ h2 {
     font-size: 20pt;
     color: darkgrey;
 }
-.button {
-   border-radius: 30px;
-   /* background-color: yellowgreen; */
-}
+
 [type="submit"] {
     color: #fff;
     background-color: yellowgreen;
