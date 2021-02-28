@@ -1,0 +1,108 @@
+body {
+    background-color: lightgrey;
+}
+
+.title-tasks {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    size: 30px;
+}
+.div-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    height: 30pt;
+    width: 97%;
+    float: left;
+}
+.div-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    height: 30pt;
+    width: 3%;
+    float: right;
+    
+}
+a {
+    text-decoration: none;
+}
+.task-list {
+    border: black;
+    border-width: thin;
+    border-style: solid;
+    border-bottom-style: none;
+}
+.div-1 li:nth-child(4) {
+    border: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+.task-x {
+    background-color: red;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    border-bottom-style: none;
+}
+.div-2 li:nth-child(4) {
+    border: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+:hover.task-x {
+    background-color: peachpuff;
+    text-decoration: underline;
+}
+.div-1 li:nth-of-type(odd) {
+    background-color: pink;
+}
+.div-1 li:nth-of-type(even) {
+    background-color: lightsteelblue;
+}
+
+div .div-1 :hover {
+    background-color: white;
+}
+/* 
+.div-2 {
+    overflow: hidden;
+    clear: both; */
+.clear { 
+    clear:both; 
+}
+.parent-float {
+    clear: both;
+    overflow: hidden;
+}
+.div-2 {
+    padding-bottom: 70px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: darkgrey;
+}
+.button {
+   border-radius: 30px;
+   /* background-color: yellowgreen; */
+}
+[type="submit"] {
+    color: #fff;
+    background-color: yellowgreen;
+    padding: 7px 50px;
+    margin: 20px 0px;
+    border-radius: 7px;
+    border: 0.5px solid black;
+}
+
+.second-part {
+    background-color: yellow;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.new-task {
+    font-family: Arial, Helvetica, sans-serif;
+}
